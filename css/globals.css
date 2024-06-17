@@ -4,6 +4,11 @@
   --primary-color: #003ecb;
   --base-black: #444444;
   --gray-black: #cccccc;
+  height: 100%;
+}
+
+html {
+  /* TODO:: Make use of this */
 }
 
 body {
@@ -13,4 +18,5 @@ body {
   font-style: normal;
   font-variation-settings: "slnt" 0;
   color: var(--base-black);
+  height: 100%;
 }
