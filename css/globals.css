@@ -11,6 +11,10 @@ html {
   /* TODO:: Make use of this */
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -19,4 +23,5 @@ body {
   font-variation-settings: "slnt" 0;
   color: var(--base-black);
   height: 100%;
+  font-size: 14px;
 }
