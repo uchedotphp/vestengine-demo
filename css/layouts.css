@@ -25,15 +25,26 @@
   background-color: #f5f6fa;
 
   form {
+    background-color: var(--full-white);
     border-radius: 10px;
     padding: 49px 46px 52px;
     max-width: 465px;
+    @media screen and (max-width: 425px) {
+        padding-inline: 20px;
+    }
 
-    h4 {
+    .caption {
       font-size: 20px;
       font-weight: 600;
       line-height: 24.2px;
       padding-block: 38px 30px;
+      text-align: center;
+    }
+
+    .notice {
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 14.52px;
     }
 
     .form-items {
@@ -41,12 +52,15 @@
         margin-bottom: 21px;
       }
       input:not([type="checkbox"]) {
-        padding: 11.5px 15px;
+        padding: 11px 15px;
         border-radius: 5px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.94px;
+
         &::placeholder {
           text-transform: capitalize;
           color: var(--base-black);
-          font-weight: 400;
         }
       }
 
@@ -78,14 +92,12 @@
         line-height: 16.94px;
         text-align: center;
         width: 100%;
+        color: var(--full-white);
       }
     }
 
     .create {
       padding-top: 38px;
-      font-size: 12px;
-      font-weight: 400;
-      line-height: 14.52px;
       a {
         font-weight: 500;
         color: var(--primary-color);
@@ -96,8 +108,11 @@
   footer {
     > *:not(:last-child) {
       margin-right: 17px;
+      @media screen and (max-width: 425px) {
+        margin-right: 10px;
+      }
     }
-    margin-bottom: 26px;
+    padding-bottom: 26px;
 
     a {
       color: var(--base-black);

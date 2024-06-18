@@ -18,7 +18,8 @@
   <body>
     <main class="container-fluid auth">
       <div class="row auth-content">
-        <section class="col d-flex flex-column auth-content-left">
+        <!-- right section -->
+        <section class="d-none col d-lg-flex flex-column auth-content-left">
           <div class="">
             <img src="assets/svgs/vestengine.svg" alt="vestengine logo" />
           </div>
@@ -30,18 +31,19 @@
           </div>
         </section>
 
+        <!-- left section -->
         <section
           class="col auth-content-right d-flex flex-column justify-content-center align-items-center"
         >
           <div class="col row">
-            <form class="my-auto bg-white">
+            <form class="mt-0 mb-5 my-sm-5 my-lg-auto">
               <div class="text-center">
                 <img
                   src="assets/svgs/vestenginelogo-sm.svg"
                   alt="vestengine small logo"
                 />
               </div>
-              <h4 class="text-center">Let’s get started</h4>
+              <h4 class="caption">Let’s get started</h4>
               <div class="form-items">
                 <div class="row gx-3">
                   <div class="col">
@@ -89,20 +91,20 @@
                     class="form-check-input"
                     type="checkbox"
                     value=""
-                    id="flexCheckDefault"
+                    id="checkTermsAndConditions"
                   />
-                  <label class="form-check-label" for="flexCheckDefault">
+                  <label class="form-check-label" for="checkTermsAndConditions">
                     I have read, understood and I agree to VestEngine’s
                     <a href="#">Privacy Policy</a>, and
                     <a href="#">Terms and conditions</a>.
                   </label>
                 </div>
 
-                <button type="button" class="btn btn-primary submit-btn">
+                <button type="button" class="btn submit-btn">
                   Create an account
                 </button>
               </div>
-              <div class="create text-center">
+              <div class="text-center notice create">
                 Already have an account? <a href="#"> Sign in here </a>
               </div>
             </form>
