@@ -30,7 +30,7 @@
     padding: 49px 46px 52px;
     max-width: 465px;
     @media screen and (max-width: 425px) {
-        padding-inline: 20px;
+      padding-inline: 20px;
     }
 
     .caption {
