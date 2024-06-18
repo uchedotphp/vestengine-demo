@@ -1,27 +1,27 @@
 /* login and signup screens */
-.wrapper,
-.main-content {
+.auth,
+.auth-content {
   height: 100%;
 }
 
-.main-content > section {
+.auth-content > section {
   min-height: 100%;
 }
 
-.main-content > :first-child {
+.auth-content > :first-child {
   background-color: var(--primary-color);
 }
 
-.main-content .main-content-left {
+.auth-content .auth-content-left {
   padding: 39px 43px 0;
   gap: 25px;
 }
 
-.main-content .main-content-left > :last-child {
+.auth-content .auth-content-left > :last-child {
   padding-bottom: 95px;
 }
 
-.main-content .main-content-right {
+.auth-content .auth-content-right {
   background-color: #f5f6fa;
 
   form {
