@@ -28,9 +28,14 @@
     background-color: var(--full-white);
     border-radius: 10px;
     padding: 49px 46px 52px;
-    max-width: 465px;
     @media screen and (max-width: 425px) {
       padding-inline: 20px;
+    }
+    &.signup {
+      max-width: 465px;
+    }
+    &.signin {
+      max-width: 404px;
     }
 
     .caption {
