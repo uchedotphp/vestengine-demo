@@ -23,104 +23,98 @@
 
 .auth-content .auth-content-right {
   background-color: #f5f6fa;
-
-  form {
-    background-color: var(--full-white);
-    border-radius: 10px;
-    padding: 49px 46px 52px;
-    @media screen and (max-width: 425px) {
-      padding-inline: 20px;
-    }
-    &.signup {
-      max-width: 465px;
-    }
-    &.signin {
-      max-width: 404px;
-    }
-
-    .caption {
-      font-size: 20px;
-      font-weight: 600;
-      line-height: 24.2px;
-      padding-block: 38px 30px;
-      text-align: center;
-    }
-
-    .notice {
-      font-size: 12px;
-      font-weight: 400;
-      line-height: 14.52px;
-    }
-
-    .form-items {
-      > *:not(:last-child) {
-        margin-bottom: 21px;
-      }
-      input:not([type="checkbox"]) {
-        padding: 11px 15px;
-      }
-
-      .terms {
-        margin-top: 18px;
-        margin-bottom: 0;
-        input[type="checkbox"] {
-          height: 18px;
-          width: 18px;
-        }
-        label {
-          margin-left: 15px;
-          font-size: 12px;
-          font-weight: 400;
-          line-height: 18px;
-          a {
-            text-decoration: underline;
-          }
-        }
-      }
-
-      .submit-btn {
-        margin-top: 30px;
-        border-radius: 5px;
-        padding: 11.5px 15px;
-        background-color: var(--primary-color);
-        font-size: 14px;
-        font-weight: 600;
-        line-height: 16.94px;
-        text-align: center;
-        width: 100%;
-        color: var(--full-white);
-      }
-    }
-
-    .create {
-      padding-top: 38px;
-      a {
-        font-weight: 500;
-        color: var(--primary-color);
-      }
-    }
-  }
-
-  footer {
-    > *:not(:last-child) {
-      margin-right: 17px;
-      @media screen and (max-width: 425px) {
-        margin-right: 10px;
-      }
-    }
-    padding-bottom: 26px;
-
-    a {
-      color: var(--base-black);
-      font-size: 12px;
-      font-weight: 400;
-      line-height: 14.52px;
-    }
-    .dot-separator {
-      width: 4px;
-      height: 4px;
-      background-color: var(--base-black);
-    }
+}
+.auth-content .auth-content-right form {
+  background-color: var(--full-white);
+  border-radius: 10px;
+  padding: 49px 46px 52px;
+}
+@media screen and (max-width: 425px) {
+  .auth-content .auth-content-right form {
+    padding-inline: 20px;
   }
 }
-/* end of login and signup screens */
+.auth-content .auth-content-right form.signup {
+  max-width: 465px;
+}
+.auth-content .auth-content-right form.signin {
+  max-width: 404px;
+}
+.auth-content .auth-content-right form .caption {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.2px;
+  padding-block: 38px 30px;
+  text-align: center;
+}
+.auth-content .auth-content-right form .notice {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.52px;
+}
+.auth-content .auth-content-right form .form-items > *:not(:last-child) {
+  margin-bottom: 21px;
+}
+.auth-content .auth-content-right form .form-items input:not([type=checkbox]) {
+  padding: 11px 15px;
+}
+.auth-content .auth-content-right form .form-items .terms {
+  margin-top: 18px;
+  margin-bottom: 0;
+}
+.auth-content .auth-content-right form .form-items .terms input[type=checkbox] {
+  height: 18px;
+  width: 18px;
+}
+.auth-content .auth-content-right form .form-items .terms label {
+  margin-left: 15px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.auth-content .auth-content-right form .form-items .terms label a {
+  text-decoration: underline;
+}
+.auth-content .auth-content-right form .form-items .submit-btn {
+  margin-top: 30px;
+  border-radius: 5px;
+  padding: 11.5px 15px;
+  background-color: var(--primary-color);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16.94px;
+  text-align: center;
+  width: 100%;
+  color: var(--full-white);
+}
+.auth-content .auth-content-right form .create {
+  padding-top: 38px;
+}
+.auth-content .auth-content-right form .create a {
+  font-weight: 500;
+  color: var(--primary-color);
+}
+.auth-content .auth-content-right footer {
+  padding-bottom: 26px;
+}
+.auth-content .auth-content-right footer > *:not(:last-child) {
+  margin-right: 17px;
+}
+@media screen and (max-width: 425px) {
+  .auth-content .auth-content-right footer > *:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+.auth-content .auth-content-right footer a {
+  color: var(--base-black);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.52px;
+}
+.auth-content .auth-content-right footer .dot-separator {
+  width: 4px;
+  height: 4px;
+  background-color: var(--base-black);
+}
+
+/* end of login and signup screens *//*# sourceMappingURL=layouts.css.map */
