@@ -7,22 +7,15 @@
 .auth-content > section {
   min-height: 100%;
 }
-
 .auth-content > :first-child {
   background-color: var(--primary-color);
 }
-
 .auth-content .auth-content-left {
   padding: 39px 43px 0;
   gap: 25px;
 }
-
 .auth-content .auth-content-left > :last-child {
   padding-bottom: 95px;
-}
-
-.auth-content .auth-content-right {
-  background-color: #f5f6fa;
 }
 .auth-content .auth-content-right form {
   background-color: var(--full-white);

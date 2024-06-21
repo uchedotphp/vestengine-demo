@@ -4,132 +4,132 @@
   height: 100%;
 }
 
-.auth-content > section {
-  min-height: 100%;
-}
+.auth-content {
+  > section {
+    min-height: 100%;
+  }
+  > :first-child {
+    background-color: var(--primary-color);
+  }
 
-.auth-content > :first-child {
-  background-color: var(--primary-color);
-}
-
-.auth-content .auth-content-left {
-  padding: 39px 43px 0;
-  gap: 25px;
-}
-
-.auth-content .auth-content-left > :last-child {
-  padding-bottom: 95px;
-}
-
-.auth-content .auth-content-right {
-  background-color: #f5f6fa;
-
-  form {
-    background-color: var(--full-white);
-    border-radius: 10px;
-    padding: 49px 46px 52px;
-    @media screen and (max-width: 425px) {
-      padding-inline: 20px;
-    }
-    &.signup {
-      max-width: 465px;
-    }
-    &.signin {
-      max-width: 404px;
-    }
-
-    .caption {
-      font-size: 20px;
-      font-weight: 600;
-      line-height: 24.2px;
-      padding-block: 38px 30px;
-      text-align: center;
-    }
-
-    .notice {
-      font-size: 12px;
-      font-weight: 400;
-      line-height: 14.52px;
-    }
-
-    .form-items {
-      > *:not(:last-child) {
-        margin-bottom: 21px;
-      }
-      input:not([type="checkbox"]) {
-        padding: 11px 15px;
-      }
-
-      .terms {
-        margin-top: 18px;
-        margin-bottom: 0;
-        input[type="checkbox"] {
-          height: 18px;
-          width: 18px;
-        }
-        label {
-          margin-left: 15px;
-          font-size: 12px;
-          font-weight: 400;
-          line-height: 18px;
-          a {
-            text-decoration: underline;
-          }
-        }
-      }
-
-      .submit-btn {
-        margin-top: 30px;
-        border-radius: 5px;
-        padding: 11.5px 15px;
-        background-color: var(--primary-color);
-        font-size: 14px;
-        font-weight: 600;
-        line-height: 16.94px;
-        text-align: center;
-        width: 100%;
-        color: var(--full-white);
-      }
-    }
-
-    .create {
-      padding-top: 38px;
-      a {
-        font-weight: 500;
-        color: var(--primary-color);
-      }
+  .auth-content-left {
+    padding: 39px 43px 0;
+    gap: 25px;
+    > :last-child {
+      padding-bottom: 95px;
     }
   }
 
-  footer {
-    > *:not(:last-child) {
-      margin-right: 17px;
+  .auth-content-right {
+    form {
+      background-color: var(--full-white);
+      border-radius: 10px;
+      padding: 49px 46px 52px;
       @media screen and (max-width: 425px) {
-        margin-right: 10px;
+        padding-inline: 20px;
+      }
+      &.signup {
+        max-width: 465px;
+      }
+      &.signin {
+        max-width: 404px;
+      }
+
+      .caption {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24.2px;
+        padding-block: 38px 30px;
+        text-align: center;
+      }
+
+      .notice {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14.52px;
+      }
+
+      .form-items {
+        > *:not(:last-child) {
+          margin-bottom: 21px;
+        }
+        input:not([type="checkbox"]) {
+          padding: 11px 15px;
+        }
+
+        .terms {
+          margin-top: 18px;
+          margin-bottom: 0;
+          input[type="checkbox"] {
+            height: 18px;
+            width: 18px;
+          }
+          label {
+            margin-left: 15px;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 18px;
+            a {
+              text-decoration: underline;
+            }
+          }
+        }
+
+        .submit-btn {
+          margin-top: 30px;
+          border-radius: 5px;
+          padding: 11.5px 15px;
+          background-color: var(--primary-color);
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 16.94px;
+          text-align: center;
+          width: 100%;
+          color: var(--full-white);
+        }
+      }
+
+      .create {
+        padding-top: 38px;
+        a {
+          font-weight: 500;
+          color: var(--primary-color);
+        }
       }
     }
-    padding-bottom: 26px;
 
-    a {
-      color: var(--base-black);
-      font-size: 12px;
-      font-weight: 400;
-      line-height: 14.52px;
-    }
-    .dot-separator {
-      width: 4px;
-      height: 4px;
-      background-color: var(--base-black);
+    footer {
+      > *:not(:last-child) {
+        margin-right: 17px;
+        @media screen and (max-width: 425px) {
+          margin-right: 10px;
+        }
+      }
+      padding-bottom: 26px;
+
+      a {
+        color: var(--base-black);
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14.52px;
+      }
+      .dot-separator {
+        width: 4px;
+        height: 4px;
+        background-color: var(--base-black);
+      }
     }
   }
 }
 /* end of login and signup screens */
 
 /* Dashboard layout */
-header.dashboard {
-  padding: 19px 40px 18px;
-  & > section {
-    display: flex;
+header {
+  &.dashboard {
+    padding: 19px 40px 18px;
+    & > section {
+      display: flex;
+    }
   }
 }
 /* End of Dashboard layout */
