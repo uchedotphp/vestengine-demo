@@ -117,4 +117,13 @@
   background-color: var(--base-black);
 }
 
-/* end of login and signup screens *//*# sourceMappingURL=layouts.css.map */
+/* end of login and signup screens */
+/* Dashboard layout */
+header.dashboard {
+  padding: 19px 40px 18px;
+}
+header.dashboard > section {
+  display: flex;
+}
+
+/* End of Dashboard layout *//*# sourceMappingURL=layouts.css.map */

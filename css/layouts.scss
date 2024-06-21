@@ -124,3 +124,12 @@
   }
 }
 /* end of login and signup screens */
+
+/* Dashboard layout */
+header.dashboard {
+  padding: 19px 40px 18px;
+  & > section {
+    display: flex;
+  }
+}
+/* End of Dashboard layout */
