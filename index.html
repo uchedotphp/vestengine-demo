@@ -17,24 +17,32 @@
     <link rel="stylesheet" href="./css/layouts.css" />
   </head>
   <body>
-    <header class="container-fluid dashboard">
-      <section>
-        <div>
-          <img
-            src="./assets/svgs/vestenginelogo-sm.svg"
-            alt="vestengine logo"
-          />
-        </div>
-        <select name="" id="">
-          <option value="">Crowdyvest</option>
-        </select>
-      </section>
-      <section></section>
-    </header>
-    <main class="container-fluid">
-      <aside>sidebar</aside>
-      <section>main work</section>
-    </main>
+    <div class="d-wrapper">
+      <header>
+        <section>
+          <div>
+            <img
+              src="./assets/svgs/vestenginelogo-sm.svg"
+              alt="vestengine logo"
+            />
+          </div>
+          <select name="" id="">
+            <option value="">Crowdyvest</option>
+          </select>
+        </section>
+      </header>
+      
+      <main class="row container-fluid">
+        <!-- static sidebar -->
+        <aside class="nav-left-sidebar">
+          <nav>sidebar
+          </nav>
+        </aside>
+
+        <!-- scrollable main area -->
+        <section class="col">main work</section>
+      </main>
+    </div>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script

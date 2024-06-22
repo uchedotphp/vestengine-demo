@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
-@import url('./variables.css');
+@import url("./variables.css");
 
 html {
   /* TODO:: Make use of this */
@@ -7,6 +7,11 @@ html {
 
 a {
   text-decoration: none;
+}
+
+.row {
+  /* padding-inline: 0; */
+  /* Doing this to remove bootstraps inline padding on elements with row class names */
 }
 
 input.veng-inputs {

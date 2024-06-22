@@ -124,12 +124,29 @@
 /* end of login and signup screens */
 
 /* Dashboard layout */
-header {
-  &.dashboard {
+.d-wrapper {
+  height: 100%;
+  padding-inline: 0;
+
+  header {
+    background-color: var(--full-white);
     padding: 19px 40px 18px;
     & > section {
       display: flex;
     }
+  }
+
+  main {
+    height: calc(100% - 62px);
+    & > * {
+      padding-top: 42px;
+    }
+  }
+
+  .nav-left-sidebar {
+    width: 288px;
+    height: 100%;
+    border-right: 1px solid #EFEFEF;
   }
 }
 /* End of Dashboard layout */
