@@ -138,8 +138,8 @@
 
   main {
     height: calc(100% - 62px);
-    & > * {
-      padding-top: 42px;
+    .main-content > * {
+      // padding-top: 42px;
     }
   }
 
