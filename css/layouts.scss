@@ -141,12 +141,49 @@
     .main-content > * {
       // padding-top: 42px;
     }
-  }
 
-  .nav-left-sidebar {
-    width: 288px;
-    height: 100%;
-    border-right: 1px solid #EFEFEF;
+    .nav-left-sidebar {
+      width: 288px;
+      height: 100%;
+      border-right: 1px solid #efefef;
+
+      nav {
+        a {
+          padding-left: 57.25px;
+          padding-block: 18.25px;
+          color: var(--base-black);
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          text-transform: capitalize;
+          font-weight: 500;
+          position: relative;
+          span {
+            font-family: Inter;
+            font-size: 1rem;
+            font-weight: inherit;
+            line-height: 16.94px;
+            text-align: left;
+          }
+          &.active {
+            background-color: #ebf2fc;
+            font-weight: 700 !important;
+            color: var(--primary-color);
+            &::after {
+              position: absolute;
+              right: 0;
+              top: 0;
+              margin-block: 0;
+              display: block;
+              content: "";
+              background-color: var(--primary-color);
+              width: 4px;
+              height: 100%;
+            }
+          }
+        }
+      }
+    }
   }
 }
 /* End of Dashboard layout */
