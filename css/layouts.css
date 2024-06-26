@@ -165,5 +165,22 @@
   width: 4px;
   height: 100%;
 }
+.d-wrapper main .page-view {
+  padding-top: 48px;
+  padding-left: 41px;
+}
+.d-wrapper main .page-view h1 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24.2px;
+  color: var(--primary-color);
+  padding-bottom: 7px;
+}
+.d-wrapper main .page-view h6.breadcrumbs {
+  color: var(--base-black);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 16.94px;
+}
 
 /* End of Dashboard layout *//*# sourceMappingURL=layouts.css.map */
