@@ -1,0 +1,17 @@
+.btn-outline {
+  padding: 9px 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  border: 1px solid #CCCCCC;
+  background-color: var(--full-white);
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 16.94px;
+}
+.btn-outline.pry {
+  background-color: #EBF2FC;
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}/*# sourceMappingURL=utilities.css.map */
