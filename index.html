@@ -15,20 +15,35 @@
     <!-- imports globals -->
     <link rel="stylesheet" href="./css/globals.css" />
     <link rel="stylesheet" href="./css/layouts.css" />
+    <link rel="stylesheet" href="./css/utilities.css">
   </head>
   <body>
     <div class="d-wrapper">
-      <header>
-        <section>
-          <div>
+      <header class="d-flex justify-content-between">
+        <section class="col-auto">
+          <div class="pe-5">
             <img
               src="./assets/svgs/vestenginelogo-sm.svg"
               alt="vestengine logo"
             />
           </div>
-          <select name="" id="">
-            <option value="">Crowdyvest</option>
-          </select>
+          <button class="btn-outline">
+            Crowdyvest
+            <img src="assets/svgs/arrow-down.svg" alt="">
+          </button>
+        </section>
+
+        <section class="col-auto">
+          <button class="btn-outline pry">
+            Sandbox
+          </button>
+          <button class="btn btn-light bg-light profile">
+            <img src="assets/svgs/profile-img.svg" alt="">
+            <span>
+              Adeyemi Adedapo
+            </span>
+            <img src="assets/svgs/arrow-down.svg" alt="">
+          </button>
         </section>
       </header>
 

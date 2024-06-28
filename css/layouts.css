@@ -122,6 +122,15 @@
 }
 .d-wrapper header > section {
   display: flex;
+  align-items: center;
+}
+.d-wrapper header .profile {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
 }
 .d-wrapper main {
   height: calc(100% - 62px);
