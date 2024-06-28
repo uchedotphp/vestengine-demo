@@ -176,7 +176,7 @@
 }
 .d-wrapper main .page-view {
   padding-top: 48px;
-  padding-left: 41px;
+  padding-inline: 40px;
 }
 .d-wrapper main .page-view h1 {
   font-size: 20px;

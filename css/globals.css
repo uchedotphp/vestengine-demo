@@ -9,6 +9,15 @@ a {
   text-decoration: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
 .row {
   /* padding-inline: 0; */
   /* Doing this to remove bootstraps inline padding on elements with row class names */

@@ -15,7 +15,7 @@
     <!-- imports globals -->
     <link rel="stylesheet" href="./css/globals.css" />
     <link rel="stylesheet" href="./css/layouts.css" />
-    <link rel="stylesheet" href="./css/utilities.css">
+    <link rel="stylesheet" href="./css/utilities.css" />
   </head>
   <body>
     <div class="d-wrapper">
@@ -27,23 +27,23 @@
               alt="vestengine logo"
             />
           </div>
-          <button class="btn-outline">
+          <button class="vest-btn-outline">
             Crowdyvest
-            <img src="assets/svgs/arrow-down.svg" alt="">
+            <img src="assets/svgs/arrow-down.svg" alt="" />
           </button>
         </section>
 
-        <section class="col-auto">
-          <button class="btn-outline pry">
-            Sandbox
-          </button>
-          <button class="btn btn-light bg-light profile">
-            <img src="assets/svgs/profile-img.svg" alt="">
-            <span>
-              Adeyemi Adedapo
-            </span>
-            <img src="assets/svgs/arrow-down.svg" alt="">
-          </button>
+        <section class="col-auto row gx-4">
+          <div class="col-auto">
+            <button class="vest-btn-outline pry">Sandbox</button>
+          </div>
+          <div class="col-auto">
+            <button class="btn btn-light bg-light profile">
+              <img src="assets/svgs/profile-img.svg" alt="" />
+              <span> Adeyemi Adedapo </span>
+              <img src="assets/svgs/arrow-down.svg" alt="" />
+            </button>
+          </div>
         </section>
       </header>
 
@@ -53,40 +53,28 @@
           <aside class="nav-left-sidebar col-auto pt-5 px-0">
             <nav>
               <a href="#" class="active">
-                <img src="assets/svgs/dashboard.svg" alt="">
-                <span>
-                  dashboard
-                </span>
+                <img src="assets/svgs/dashboard.svg" alt="" />
+                <span> dashboard </span>
               </a>
               <a href="#">
-                <img src="assets/svgs/user.svg" alt="">
-                <span>
-                  users
-                </span>
+                <img src="assets/svgs/user.svg" alt="" />
+                <span> users </span>
               </a>
               <a href="#">
-                <img src="assets/svgs/banner.svg" alt="">
-                <span>
-                  in-app banner
-                </span>
+                <img src="assets/svgs/banner.svg" alt="" />
+                <span> in-app banner </span>
               </a>
               <a href="#">
-                <img src="assets/svgs/metrics.svg" alt="">
-                <span>
-                  app metrics
-                </span>
+                <img src="assets/svgs/metrics.svg" alt="" />
+                <span> app metrics </span>
               </a>
               <a href="#">
-                <img src="assets/svgs/notifications.svg" alt="">
-                <span>
-                  push notifications
-                </span>
+                <img src="assets/svgs/notifications.svg" alt="" />
+                <span> push notifications </span>
               </a>
               <a href="#">
-                <img src="assets/svgs/settings.svg" alt="">
-                <span>
-                  settings
-                </span>
+                <img src="assets/svgs/settings.svg" alt="" />
+                <span> settings </span>
               </a>
             </nav>
           </aside>
@@ -94,15 +82,18 @@
           <!-- scrollable main area -->
           <section class="col h-100 overflow-hidden px-0">
             <div class="h-100 overflow-auto page-view">
-              <h1>
-                Dashboard
-              </h1>
-              <h6 class="breadcrumbs">
-                <a href="#">
-                  Dashboard
-                </a>
-                 / Overview
-              </h6>
+              <section class="d-flex justify-content-between">
+                <div class="col-auto">
+                  <h1>Dashboard</h1>
+                  <h6 class="breadcrumbs">
+                    <a href="#"> Dashboard </a>
+                    / Overview
+                  </h6>
+                </div>
+                <div class="col-auto">
+                  <button class="btn vest-btn">Refresh</button>
+                </div>
+              </section>
             </div>
           </section>
         </div>
